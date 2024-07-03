@@ -26,10 +26,6 @@ const LoginRegister = () => {
                         <input type="password" placeholder="Password" required/>
                         <FaLock className="icon" />
                     </div>
-                    <div className="input-box">
-                        <input type="password" placeholder="Confirm Password" required/>
-                        <FaLock className="icon" />
-                    </div>
 
                     <div className="remember-forgot">
                         <label><input type="checkbox" />Remember me</label>

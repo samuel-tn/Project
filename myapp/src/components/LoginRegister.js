@@ -14,7 +14,6 @@ const LoginRegister = () => {
     };
     
     return(
-        <div className="LoginRegister">
         <div className={`wrapper${action}`}>
             <div className="form-box login">
                 <form action="">
@@ -68,7 +67,6 @@ const LoginRegister = () => {
                     </div>
                 </form>
             </div>
-        </div>
         </div>
     );
 };

@@ -1,16 +1,14 @@
 import React from "react";
-import LoginRegister from './components/LoginRegister';
-import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import './App.css';
 
 function App() {
   return (
     <div>
       <div>
-     <LoginRegister/>
+     <Home/>
      </div>
-     <div>
-      <Navbar/>
-     </div>
+     
     </div>
   );
 }

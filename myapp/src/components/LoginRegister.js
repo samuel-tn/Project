@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './app.css';
+import './LoginRegister.css';
 import { FaLock, FaUser,  FaEnvelope } from "react-icons/fa";
 const LoginRegister = () => {
 
@@ -14,6 +14,7 @@ const LoginRegister = () => {
     };
     
     return(
+        <div className="LoginRegister">
         <div className={`wrapper${action}`}>
             <div className="form-box login">
                 <form action="">
@@ -67,6 +68,7 @@ const LoginRegister = () => {
                     </div>
                 </form>
             </div>
+        </div>
         </div>
     );
 };

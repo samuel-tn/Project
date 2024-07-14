@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import './LoginRegister.css';
 import { FaLock, FaUser,  FaEnvelope } from "react-icons/fa";
+import Navbar from "../../Navbar";
 const LoginRegister = () => {
 
     const[action, setAction] = useState('');
@@ -14,6 +15,8 @@ const LoginRegister = () => {
     };
     
     return(
+        <div>
+            <Navbar/>
         <div className={`wrapper${action}`}>
             <div className="form-box login">
                 <form action="">
@@ -67,6 +70,7 @@ const LoginRegister = () => {
                     </div>
                 </form>
             </div>
+        </div>
         </div>
     );
 };

@@ -1,62 +1,7 @@
 *{margin: 0; padding: 0;}
-
-body{
-  background: url('./assets/background1.webp') no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
 .navbar{
   display: flex;
   justify-content: space-between;
-  background-color: rgb(97, 94, 94);
+  background-color: rgb(122, 118, 118);
   padding: 10px 16px;
-  margin-bottom: 16px;
 }
-
-.navbar-logo{
-  color: white;
-  font-size: 30px;
-}
-
-.navbar-menu{
-  display: flex;
-  list-style-type: none;
-  gap: 30px;
-  margin: 0;
-  align-items: center;
-}
-.navbar-menu li a{
-  color: white;
-  text-decoration: none;
-}
-.navbar-menu li a:hover{
-  text-decoration: underline;
-  color: rgb(241, 62, 62);
-}
-
-.p1{
-  justify-content: center;
-  text-align: center;
-  display: flex;
-  padding-top: 250px;
-  color: white;
-  font-weight: bold;
-}
-.p2{
-  justify-content: center;
-  text-align: center;
-  display: flex;
-  padding-top: 15px;
-  color: white;
-  font-weight: bold;
-  min-height: 45vh;
-}
-.p3{
-  font-size: 24px;
-  background-color: white;
-  background-position: center;
-  text-align: left;
-}
-
-

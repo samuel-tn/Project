@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import './LoginRegister.css';
+import '../../components/LoginRegister.css';
 import { FaLock, FaUser,  FaEnvelope } from "react-icons/fa";
-import Navbar from "../../Navbar";
+import Navbar from "../Navbar";
 const LoginRegister = () => {
 
     const[action, setAction] = useState('');

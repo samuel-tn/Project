@@ -1,7 +1,1 @@
 *{margin: 0; padding: 0;}
-.navbar{
-  display: flex;
-  justify-content: space-between;
-  background-color: rgb(122, 118, 118);
-  padding: 10px 16px;
-}

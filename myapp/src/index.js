@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import LoginRegister from './components/pages/LoginRegister';
+import LoginRegister from './components/LoginRegister';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -15,28 +15,8 @@ const router = createBrowserRouter([
     element: <App/>,
   },
   {
-    path: "Register/Login",
+    path: "Login/Register",
     element: <LoginRegister/>,
-  },
-  {
-    path: "Tools",
-    element: <ToolsPage/>,
-  },
-  {
-    path: "API",
-    element: <APIPage/>,
-  },
-  {
-    path: "Pricing",
-    element: <PricingPage/>,
-  },
-  {
-    path: "About",
-    element: <AboutPage/>,
-  },
-  {
-    path: "Contact",
-    element: <ContactPage/>,
   },
 
   

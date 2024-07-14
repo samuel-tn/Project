@@ -1,12 +1,11 @@
 import React from "react";
-import Home from "./components/pages/Home";
-import './App.css';
+import LoginRegister from "./components/LoginRegister";
 
 function App() {
   return (
     <div>
       <div>
-     <Home/>
+     <LoginRegister/>
      </div>
      
     </div>
